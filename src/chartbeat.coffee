@@ -11,7 +11,7 @@
 #
 # Commands:
 #   hubot chart me - Returns active concurrent vistors from the default site specified.
-#   hubot chart me <host> - Returns active concurrent vistors from the site specified.
+#   hubot chart me <site> - Returns active concurrent vistors from the site specified.
 #   hubot chart bomb - Returns active concurrent visitors from all sites.
 #
 # Notes:
