@@ -1,0 +1,32 @@
+{
+  "name": "hubot-chartbeat",
+  "version": "0.2.0",
+  "description": "Hubot script for interacting with the Chartbeat service.",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "script/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/delianides/hubot-chartbeat"
+  },
+  "keywords": [
+    "hubot",
+    "chartbeat"
+  ],
+  "author": "Drew Delianides",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/delianides/hubot-chartbeat/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+  "homepage": "https://github.com/delianides/hubot-chartbeat"
+}
