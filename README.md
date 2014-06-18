@@ -1,5 +1,7 @@
 Chartbeat Hubot Script
 =====================
+[![NPM version](https://badge.fury.io/js/hubot-chartbeat.svg)](http://badge.fury.io/js/hubot-chartbeat)
+
 A Hubot script for accessing the current live traffic count from the Chartbeat
 service.
 
