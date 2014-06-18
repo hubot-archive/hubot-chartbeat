@@ -1,6 +1,6 @@
 {
   "name": "hubot-chartbeat",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Hubot script for interacting with the Chartbeat service.",
   "main": "index.coffee",
   "scripts": {
