@@ -16,10 +16,11 @@ Configuration
     #API Key
     HUBOT_CHARTBEAT_API_KEY=XXXXXXXXXXXXXXXX
 
+    #Optional Chartbeat section (Chartbeat Publishing only)
+    HUBOT_CHARTBEAT_SECTION=example
+
 Usage
 -----
     hubot chart me        - Returns active concurrent visitors from the default site specified.
     hubot chart me <site> - Returns active concurrent vistors from the site specified.
     hubot chart bomb      - Returns active concurrent vistors from all sites
-
-
