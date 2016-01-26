@@ -16,7 +16,7 @@ Configuration
     #API Key
     HUBOT_CHARTBEAT_API_KEY=XXXXXXXXXXXXXXXX
 
-    #Optional Chartbeat section (Chartbeat Publishing only)
+    #Optional Chartbeat section for Chartbeat Publishing users
     HUBOT_CHARTBEAT_SECTION=example
 
 Usage

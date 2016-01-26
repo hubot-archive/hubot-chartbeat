@@ -1,18 +1,18 @@
 # Description:
-#   Display number of concurrent vistors to the specified site.
+#   Display number of concurrent visitors to the specified site or section.
 #
 # Dependencies:
 #   None
 #
 # Configuration:
 #   HUBOT_CHARTBEAT_SITE
-#   HUBOT_CHARTBEAT_SITES <comma separated string of all
+#   HUBOT_CHARTBEAT_SITES <comma separated string of all sites>
 #   HUBOT_CHARTBEAT_API_KEY <use global key for access to all sites>
-#   HUBOT_CHARTBEAT_SECTION <optional section (Chartbeat Publishing only)>
+#   HUBOT_CHARTBEAT_SECTION <optional section for Chartbeat Publishing users>
 #
 # Commands:
-#   hubot chart me - Returns active concurrent vistors from the default site specified.
-#   hubot chart me <site> - Returns active concurrent vistors from the site specified.
+#   hubot chart me - Returns active concurrent visitors from the default site specified.
+#   hubot chart me <site> - Returns active concurrent visitors from the site specified.
 #   hubot chart bomb - Returns active concurrent visitors from all sites.
 #
 # Notes:
