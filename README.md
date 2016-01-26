@@ -22,5 +22,5 @@ Configuration
 Usage
 -----
     hubot chart me        - Returns active concurrent visitors from the default site specified.
-    hubot chart me <site> - Returns active concurrent vistors from the site specified.
-    hubot chart bomb      - Returns active concurrent vistors from all sites
+    hubot chart me <site> - Returns active concurrent visitors from the site specified.
+    hubot chart bomb      - Returns active concurrent visitors from all sites
