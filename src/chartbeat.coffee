@@ -24,7 +24,7 @@
 #   Drew Delianides
 
 getChart = (msg, apiKey, site, section) ->
-  postUrl = "http://api.chartbeat.com/live/quickstats/v3/?apikey=#{apiKey}&host=#{site}"
+  postUrl = "http://api.chartbeat.com/live/quickstats/v4/?apikey=#{apiKey}&host=#{site}"
   if (section)
     postUrl += "&section=#{section}"
   msg.robot.http(postUrl)
@@ -34,7 +34,7 @@ getChart = (msg, apiKey, site, section) ->
          return
 
         response = JSON.parse(body)
-        people = response.people || []
+        people = response.data.stats.people || []
 
         if (people < 1)
           msg.send "It doesn't appear that #{site} has any visitors right now"
